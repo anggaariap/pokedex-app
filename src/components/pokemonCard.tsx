@@ -35,7 +35,7 @@ import {
             component="img"
             image={pokemon.image}
             title={pokemon.name}
-            sx={{ height: 100, objectFit: "contain" }}
+            sx={{ height: 100, objectFit: "contain", marginTop: '15px'}}
           />
           <CardContent>
             <Box

@@ -14,7 +14,7 @@ const PokemonList: React.FC<PokemonListProps> = ({ pokemons }) => {
         ? pokemons.map((p) => {
             return (
               <Grid item xs={4}>
-                <PokemonCard key={p.name} pokemon={p} />
+                <PokemonCard key={p.name} pokemon={p}/>
               </Grid>
             );
           })
