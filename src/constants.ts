@@ -9,7 +9,7 @@ export const POKEMON_TYPES: IndexedType[] = [
     {
       name: "normal",
       url: "https://pokeapi.co/api/v2/type/1/",
-      color: brown[100],
+      color: purple[100],
     },
     {
       name: "fighting",
@@ -24,7 +24,7 @@ export const POKEMON_TYPES: IndexedType[] = [
     {
       name: "poison",
       url: "https://pokeapi.co/api/v2/type/4/",
-      color: purple[500],
+      color: brown[500],
     },
     {
       name: "ground",
@@ -54,7 +54,7 @@ export const POKEMON_TYPES: IndexedType[] = [
     {
       name: "fire",
       url: "https://pokeapi.co/api/v2/type/10/",
-      color: orange[500],
+      color: red[500],
     },
     {
       name: "water",
@@ -89,11 +89,11 @@ export const POKEMON_TYPES: IndexedType[] = [
     {
       name: "dark",
       url: "https://pokeapi.co/api/v2/type/17/",
-      color: grey[800],
+      color: grey[900],
     },
     {
       name: "fairy",
       url: "https://pokeapi.co/api/v2/type/18/",
-      color: pink[300],
+      color: pink[400],
     },
   ];

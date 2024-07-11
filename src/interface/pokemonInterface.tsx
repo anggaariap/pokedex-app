@@ -1,6 +1,6 @@
 export interface IndexedPokemon{
-    name: string
-    url: string
+    name: string;
+    url: string;
 }
 
 export interface PokemonListResponse {
@@ -41,7 +41,7 @@ export interface PokemonType {
     };
 }
   
-  export interface PokemonStat {
+export interface PokemonStat {
     base_stat: number;
     effort: number;
     stat: {

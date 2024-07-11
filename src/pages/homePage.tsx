@@ -1,8 +1,8 @@
 import React from 'react'
 import usePokemons from '../hooks/usePokemons';
 import PokemonList from '../components/pokemonList';
-import Container from '@mui/material/Container';
 import { IndexedType } from '../interface/pokemonInterface';
+import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import Button from '@mui/material/Button';
 
@@ -24,7 +24,7 @@ const HomePage = () => {
           setPokemons([]);
           setSelectedType(null);
         }
-      };
+    };
     
       return (
         <Container>
@@ -65,16 +65,16 @@ const HomePage = () => {
               xs={12}
               sx={{ display: "flex", justifyContent: "center" }}
             >
-              <PokemonList pokemons={pokemons}></PokemonList>
-              {hasMorePokemon ? (
-                <Button variant="contained" onClick={fetchNextPage}>
-                  Load more Pokemon
-                </Button>
-              ) : null}
+            <PokemonList pokemons ={ pokemons }></PokemonList>
+            {hasMorePokemon ? (
+              <Button variant="contained" onClick={fetchNextPage}>
+                See More
+              </Button>
+            ) : null}
             </Grid>
           </Grid>
         </Container>
       );
-    };
+};
     
-    export default HomePage;
+export default HomePage;

@@ -9,7 +9,7 @@ interface PokemonListProps {
 
 const PokemonList: React.FC<PokemonListProps> = ({ pokemons }) => {
   return (
-    <Grid container spacing={2}>
+    <Grid container spacing={3}>
       {pokemons.length > 0
         ? pokemons.map((p) => {
             return (
