@@ -1,8 +1,6 @@
 import { DetailPokemon } from "../interface/pokemonInterface"
 import { Box } from "@mui/system"
 import { Card, CardMedia, CardContent, Typography } from "@mui/material"
-import { useEffect, useState } from "react"
-import { getColorFromUrl } from "../utils/color"
 
 interface PokemonImageProps {
   pokemon: DetailPokemon

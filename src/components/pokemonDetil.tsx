@@ -36,7 +36,7 @@ const PokemonDetil = () => {
         </Grid>
         <Grid item>
           <Button component={Link} to={"/"} variant="contained">
-            See PokemonList
+            Back to Pokemon List
           </Button>
         </Grid>
       </Grid>
