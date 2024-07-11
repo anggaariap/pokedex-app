@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
+import { DetailPokemon } from "../interface/pokemonInterface";
 import { httpClient } from "../service/httpClient";
 import { POKEMON_API_POKEMON_URL } from "../constants";
-import { DetailPokemon } from "../interface/pokemonInterface";
 import { getColorFromUrl } from "../utils/color";
 
 interface UsePokemonProps {
