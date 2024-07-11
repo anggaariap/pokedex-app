@@ -43,9 +43,13 @@ const HomePage = () => {
     
       return (
         <Container>
-          <div style={containerStyle}>
-            <img src="/hero-pokedex.png" alt="hero-image" style={imageStyle} />
-          </div>
+          <Box>
+            <img 
+              src="/hero-pokedex.png" 
+              alt="hero-image" 
+              style={imageStyle}
+            />
+          </Box>
           <Grid container spacing={2} mt={1}>
             <Grid
               container

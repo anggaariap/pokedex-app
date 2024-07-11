@@ -3,8 +3,7 @@ import { IndexedType } from "./interface/pokemonInterface";
 
 export const POKEMON_API_BASE_URL = "https://pokeapi.co/api/v2";
 export const POKEMON_API_POKEMON_URL = `${POKEMON_API_BASE_URL}/pokemon`;
-export const POKEMON_IMAGES_BASE_URL =
-  "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork";
+export const POKEMON_IMAGES_BASE_URL = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork";
 
 export const POKEMON_TYPES: IndexedType[] = [
   {
@@ -88,13 +87,13 @@ export const POKEMON_TYPES: IndexedType[] = [
     color: deepPurple[500],
   },
   {
+    name: "fairy",
+    url: "https://pokeapi.co/api/v2/type/18/",
+    color: pink[400],
+  },
+  {
     name: "dark",
     url: "https://pokeapi.co/api/v2/type/17/",
     color: grey[800],
-  },
-  {
-    name: "fairy",
-    url: "https://pokeapi.co/api/v2/type/18/",
-    color: pink[300],
   },
 ];
