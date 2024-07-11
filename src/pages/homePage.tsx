@@ -88,15 +88,15 @@ const HomePage = () => {
               sx={{ display: "flex", justifyContent: "center" }}
             >
             <PokemonList pokemons = { pokemons }></PokemonList>
-            {hasMorePokemon ? (
-              <Button 
-                variant="contained" 
-                onClick={fetchNextPage}
-                style={{ marginTop: '20px', display:"flex" }}
+              {hasMorePokemon ? (
+                <Button 
+                  variant="contained" 
+                  onClick={fetchNextPage}
+                  style={{ marginTop: '20px', display:"flex" }}
                 >
-                See More
-              </Button>
-            ) : null}
+                  See More
+                </Button>
+              ) : null}
             </Grid>
           </Grid>
         </Container>
