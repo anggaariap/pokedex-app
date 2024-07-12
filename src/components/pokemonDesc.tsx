@@ -32,7 +32,8 @@ const PokemonDesc = ({pokemon}: PokemonDescriptionProps) => {
                     {type.type.name}
                   </Typography>
                 )
-              })}</Typography>
+              })}
+              </Typography>
             </Grid>
             <Grid item xs={6}>
               <Typography variant="subtitle2">Abilities</Typography>
@@ -42,7 +43,8 @@ const PokemonDesc = ({pokemon}: PokemonDescriptionProps) => {
                     {ability.ability.name}
                   </Typography>
                 )
-              })}</Typography>
+              })}
+              </Typography>
             </Grid>
         </Grid>
       </CardContent>

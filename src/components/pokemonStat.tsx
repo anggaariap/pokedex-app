@@ -5,7 +5,7 @@ interface PokemonStatsProps {
   pokemon: DetailPokemon
 }
 
-const PokemonStats = ({pokemon}: PokemonStatsProps) => {
+const PokemonStat = ({pokemon}: PokemonStatsProps) => {
   return (
     <Card>
       <CardContent>
@@ -38,4 +38,4 @@ const PokemonStats = ({pokemon}: PokemonStatsProps) => {
   )
 }
 
-export default PokemonStats
+export default PokemonStat;
